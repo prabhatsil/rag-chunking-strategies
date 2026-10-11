@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Secrets — never commit; keep .env.example as the template
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Experiment outputs
+results/*
+!results/.gitkeep
+
+# Private source documents (bills, statements, etc.)
+data/documents/pdf/*.pdf
+
+# OS / editor
+.DS_Store
